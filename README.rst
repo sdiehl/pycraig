@@ -38,19 +38,17 @@ Example
 =======
 
 >>> from pycraig import *
-
+    
 # Get 3 page of listings for "cars & trucks" for sale "by owner"
 # in the "San Franciso Bay" area
 >>> listings = get_listings(url='sfbay.craigslist.org',
-...                         cat='cars & trucks - by owner',
-...                         pages=3)
-
-
+                            cat='cars & trucks - by owner',
+                            pages=3)
 # Create table with our car listings
 >>> cars = Table()
->> extract_rows(listings, cars)
-
+>>> extract_rows(listings, cars)
+    
 # Show all hondas under $15,000
 >>> for car in cars:
-...    if car.price < 15000 and 'honda' in car.desc:
-...        print car.link, car.desc
+       if car.price < 15000 and 'honda' in car.desc:
+           print car.link, car.desc
