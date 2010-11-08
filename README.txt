@@ -9,22 +9,24 @@ All code is released under a BSD-style license, see LICENSE for details.
 
 Written by Stephen Diehl <sdiehl@clarku.edu>.
 
+PyCraig is for personal use only, too many requests to craigslist
+will get your ip address banned.
+
 Dependencies
 ============
 
-PyCraig depends on *BeautifulSoup*, you can install it with
+PyCraig depends on BeautifulSoup, you can install it with
 
 >   pip install BeautifulSoup
 
 It also uses GNU Curl for grabbing web pages. If you are running
 Linux, BSD, or OS X you probably have this installed.
 
-*jellyfish* ( https://github.com/sunlightlabs/jellyfish ) is
+jellyfish ( https://github.com/sunlightlabs/jellyfish ) is
 optionally included for doing approximate string matching. It 
 is written in C and is very fast. 
 
-To use it run from the pycraig directory use the included 
-Makefile
+To use jellyfish as a local module use:
 
 >    cd pycraig/jellyfish
 >    make
