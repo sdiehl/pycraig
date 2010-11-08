@@ -20,7 +20,7 @@ It also uses GNU Curl for grabbing web pages. If you are running
 Linux, BSD, or OS X you probably have this installed.
 
 *jellyfish* ( https://github.com/sunlightlabs/jellyfish ) is
-optinally included for doing approximate string matching. It 
+optionally included for doing approximate string matching. It 
 is written in C and is very fast. 
 
 To use it run from the pycraig directory use the included 
