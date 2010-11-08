@@ -1,6 +1,6 @@
 =========
 PyCraig
-=======
+=========
 
 PyCraig is a python library for scraping small amounts of data
 off of Craigslist.
