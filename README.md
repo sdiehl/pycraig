@@ -1,7 +1,7 @@
 PyCraig
 =========
 
-Written by Stephen Diehl <sdiehl@clarku.edu>.
+Written by Stephen Diehl <stephen.m.diehl@gmail.com>.
 
 PyCraig is a python library for scraping small amounts of data
 off of Craigslist.
